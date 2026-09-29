@@ -1,0 +1,34 @@
+.acf-fcp-actions {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin: 8px 0 0;
+}
+
+.acf-fcp-button {
+	margin: 0;
+}
+
+.acf-fcp-message {
+	font-size: 12px;
+	line-height: 1.4;
+	margin-left: 4px;
+}
+
+.acf-more-layout-actions li a.acf-fcp-copy-layout::before,
+.acf-more-layout-actions li a.acf-fcp-paste-after-layout::before {
+	content: none !important;
+	display: none !important;
+	background: none !important;
+	margin: 0 !important;
+	width: 0 !important;
+}
+
+.acf-fcp-message.is-success {
+	color: #008a20;
+}
+
+.acf-fcp-message.is-error {
+	color: #b32d2e;
+}
